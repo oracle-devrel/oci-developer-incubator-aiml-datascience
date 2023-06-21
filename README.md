@@ -1,18 +1,20 @@
-# oci-developer-incubator-template
+# oci-developer-incubator-AIML-Datascience
 
 [![License: UPL](https://img.shields.io/badge/license-UPL-green)](https://img.shields.io/badge/license-UPL-green) [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=oracle-devrel_oci-developer-incubator)](https://sonarcloud.io/dashboard?id=oracle-devrel_oci-developer-incubator)
 
 ## Introduction
-This repository provides `<use case name>` use case with 6 different deployment paths for you to choose from based on your preference and requirements. As each path comes with its own benefits, refer to the table below to guide you in making an informed decision.
+This repository provides AI&ML use case with 6 different deployment paths for you to choose from based on your preference and requirements. As each path comes with its own benefits, refer to the table below to guide you in making an informed decision.
 
 | Benefits | DIY | Mix & Match | Managed |
 | :--- | :---: | :---: | :---: |
-| `<benefit 1>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
-| `<benefit 2>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
-| `<benefit 3>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
-| `<benefit 4>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
-| `<benefit 5>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
-| `<benefit 6>` | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: | :white_check_mark: or :x: or :heavy_minus_sign: |
+| Use a GPU shape for deep-learning model training and inference or CPU-based compute for machine learning, according to your needs | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Integrates with the rest of the Oracle Cloud Infrastructure stack, including Functions, Data Flow, Autonomous Data Warehouse, and Object Storage | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Automating the Continuous Integration and Continuous Deployment (CI/CD) pipelines for workloads in Oracle Cloud | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Helps data scientists concentrate on methodology and domain expertise to deliver models to production | :x: | :white_check_mark: | :white_check_mark: |
+| Pipelines enable you to execute end-to-end machine learning workflows | :x: | :white_check_mark: | :white_check_mark: |
+| Enables self-service, serverless access to infrastructure for data science workloads | :x: | :white_check_mark: | :white_check_mark: |
+| Simple drag-and-drop interface to build a complete Machine learning Model | :x: | :x: | :white_check_mark: |
+| Pretrained models that can be custom trained with an organization’s own data to improve model quality, making it easier for developers to adopt and use AI technology | :x: | :x: | :white_check_mark: |
 
 :white_check_mark: = Supported
 
@@ -27,37 +29,37 @@ Click on the deployment path of your choice for more details and deployment inst
 
 * [**1a. DIY**](1a_diy)
 
-    `<short description of this path>`
+    Leverage Marketplace Data Science VM for Machine Learning
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](1a_diy/terraform/README.md)     
 
 * [**1b. DIY with CI/CD**](1b_diy_cicd)
 
-    `<short description of this path>`
+    Leverage Marketplace Data Science VM for Machine Learning with CI CD pipeline
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](1b_diy_cicd/terraform/README.md)
 
 * [**2a. Mix and Match**](2a_mixmatch)
 
-    `<short description of this path>`
+    Leveraging OCI Data Science for Machine Learning
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](2a_mixmatch/terraform/README.md)
 
 * [**2b. Mix and Match with CI/CD**](2b_mixmatch_cicd)
 
-    `<short description of this path>`
+    Leveraging OCI Data Science for Machine Learning with CI CD pipeline
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](2b_mixmatch_cicd/terraform/README.md)
 
 * [**3a. Managed**](3a_managed)
 
-    `<short description of this path>`
+    MLOps using Managed OML4Py with AutoML
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](3a_managed/terraform/README.md)
 
 * [**3b. Managed with CI/CD**](3b_managed_cicd)
 
-    `<short description of this path>`
+    MLOps using Managed OML4Py with AutoML with CI CD pipeline
 
     [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](3b_managed_cicd/terraform/README.md)
 
@@ -69,8 +71,9 @@ Click on the deployment path of your choice for more details and deployment inst
 Architectures shown are not meant for production deployment. Please refer to [Oracle Reference Architecture](https://docs.oracle.com/en/solutions/ha-web-app/index.html) for best practices.
 
 ## URLs
-* [Oracle Reference Architecture](`<Link to the Reference Architecture of this use case (if applicable)>`)
-* [`<Product Name>`](`<Link to product documentation>`
+* [Reference Architecture](https://docs.oracle.com/en/solutions/ha-web-app/index.html)
+
+* [MAD Framwork](https://docs.oracle.com/en/solutions/mad-web-mobile/index.html)
 
 ## Contributing
 This project is open source.  Please submit your contributions by forking this repository and submitting a pull request!  Oracle appreciates any contributions that are made by the open source community.
